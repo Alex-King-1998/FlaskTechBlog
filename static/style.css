@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-left: 20px;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.post {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f8f9fa;
+}
+
+.comment-form {
+    margin-top: 20px; /* Add space above the form */
+    border: 1px solid #ccc; /* Border around the form */
+    padding: 15px; /* Padding inside the form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the fields */
+    margin: 10px 0; /* Margin between fields */
+    border: 1px solid #ccc; /* Border for fields */
+    border-radius: 5px; /* Rounded corners for fields */
+}
+
+.comment-form button {
+    background-color: #007BFF; /* Blue background for button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.comment-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
