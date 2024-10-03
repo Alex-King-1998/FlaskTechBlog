@@ -25,7 +25,7 @@ A simple tech blog application built with Flask and SQLite. This blog allows use
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/Alex-King-1998/FlaskTechBlog.git
    cd repository-name
 
 2. Install the required packages:
